@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\nihal\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-02bd374d441c69c685008bbdd65acd6d7f60b591.jar" />
+    </item>
+    <item
+        jar="C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-106d25dcdef6d2cbd65d416141dee10fd983b52d.jar" />
+    </item>
+    <item
+        jar="C:\Users\nihal\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-31a9d30ffbf7154b973a906aea72c13b896227a9.jar" />
+    </item>
+    <item
+        jar="C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-211b2c589790f71ce0b48717b4ebeac04dd570a5.jar" />
+    </item>
+    <item
+        jar="C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-7329b5343d4b6378384b64c9c5275fac01648004.jar" />
+    </item>
+    <item
+        jar="C:\Users\nihal\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.0\58a7d54b6a4f28be11f0cecec93097eddf473e6f\parse-android-1.13.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\pre-dexed\debug\parse-android-1.13.0-abef3f9b6cc54ad43f4c1564b397d30e39a7097e.jar" />
+    </item>
+
+</items>
