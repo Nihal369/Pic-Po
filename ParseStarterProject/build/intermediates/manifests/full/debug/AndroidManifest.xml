@@ -39,6 +39,7 @@
             android:name="com.parse.starter.LoginActivity"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity android:name="com.parse.starter.UsersList" />
+        <activity android:name="com.parse.starter.UserFeed" />
     </application>
 
 </manifest>

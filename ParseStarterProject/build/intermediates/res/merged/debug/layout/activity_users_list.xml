@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/listView"
         android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
         />
 
     <ImageView
@@ -35,6 +36,6 @@
         android:layout_below="@+id/imageView3"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="32dp" />
+        android:layout_marginTop="36dp" />
 </RelativeLayout>
 <!-- From: file:/C:/Users/nihal/Desktop/Parse-Starter-Project-Android-1.13.0/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/res/layout/activity_users_list.xml -->

@@ -9,12 +9,14 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import com.parse.FindCallback;
+import com.parse.ParseACL;
 import com.parse.ParseException;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
@@ -37,6 +39,14 @@ public class UsersList extends AppCompatActivity {
         userNames=new ArrayList<String>();
         adapter=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,userNames);
         final ListView listView = (ListView) findViewById(R.id.listView);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent i=new Intent(getApplicationContext(),UserFeed.class);
+                i.putExtra("username",userNames.get(position));
+                startActivity(i);
+            }
+        });
         ParseQuery<ParseUser> parseQuery=ParseUser.getQuery();
         parseQuery.whereNotEqualTo("username", ParseUser.getCurrentUser().getUsername());
         parseQuery.addAscendingOrder("username");
@@ -77,7 +87,10 @@ public class UsersList extends AppCompatActivity {
                 ParseFile file=new ParseFile("image.png",byteArray);
                 ParseObject object=new ParseObject("Images");
                 object.put("username",ParseUser.getCurrentUser().getUsername());
-                object.put("image",file);
+                object.put("image", file);
+                ParseACL parseACL=new ParseACL();
+                parseACL.setPublicReadAccess(true);
+                object.setACL(parseACL);
                 object.saveInBackground(new SaveCallback() {
                     @Override
                     public void done(ParseException e) {
@@ -101,6 +114,6 @@ public class UsersList extends AppCompatActivity {
     {
         ParseUser.logOut();
         Intent i=new Intent(getApplicationContext(),LoginActivity.class);
-        startActivity(i);
+       startActivity(i);
     }
 }

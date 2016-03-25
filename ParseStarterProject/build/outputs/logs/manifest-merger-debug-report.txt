@@ -22,7 +22,7 @@ ADDED from C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Sta
 	android:name
 		ADDED from C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:7:5-79
+ADDED from C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:7:5-80
 	android:name
 		ADDED from C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:7:22-77
 application
@@ -76,9 +76,13 @@ ADDED from C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Sta
 	android:name
 		ADDED from C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:33:13-42
 activity#com.parse.starter.UsersList
-ADDED from C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:35:9-36:25
+ADDED from C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:35:9-47
 	android:name
 		ADDED from C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:35:19-44
+activity#com.parse.starter.UserFeed
+ADDED from C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:36:9-55
+	android:name
+		ADDED from C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:36:19-43
 uses-sdk
 INJECTED from C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\nihal\Desktop\Parse-Starter-Project-Android-1.13.0\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
